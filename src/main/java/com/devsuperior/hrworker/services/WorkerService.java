@@ -8,7 +8,7 @@ import com.devsuperior.hrworker.repositories.WorkerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class WorkerService {
+public class WorkerService implements WorkerServiceInterface{
 
     @Autowired
     private WorkerRepository workerRepository; 
@@ -24,5 +24,9 @@ public class WorkerService {
         Optional <Worker> worker = workerRepository.findById(id);
 
         return worker.get();
+    }
+
+    public void createWorker(Worker worker){
+        workerRepository.save(worker);
     }
 }
