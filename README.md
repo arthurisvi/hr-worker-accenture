@@ -12,9 +12,12 @@ Conceitos absolvidos durante o projeto:
 (In progress/Em andamento)
 
 - HTPP/HTTPS
+- API
 - Maven
 - Lombok 
 - MVC
 - Dependency injection
+- Persistence Spring Data/JPA
+- Pattern repository
 <br>
 [Loading ...]
