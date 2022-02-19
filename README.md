@@ -11,8 +11,8 @@ Conceitos absolvidos durante o projeto:
 <br><br>
 (In progress/Em andamento)
 
-- HTPP/HTTPS
-- API
+- Methods HTPP/HTTPS
+- API REST
 - Maven
 - Lombok 
 - MVC
